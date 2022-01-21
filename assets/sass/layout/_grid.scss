@@ -1,0 +1,17 @@
+.main__grid.grid {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2em;
+    @include breakpoint('smallScreen'){
+        grid-template-columns: 1fr;
+        column-gap: normal;
+        row-gap: 2em;
+    }
+}
+
+.grid__col {
+    padding: 1em;
+    border: 1px solid $sable;
+}
+

@@ -1,0 +1,100 @@
+.main {
+    padding: 1em 2em;
+    display: flex;
+    @include breakpoint('smallScreen'){
+        padding: 1em;
+    }
+}
+
+.main__card {
+    padding: 10px;
+    border: 1px solid #c9c9c9;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card__body {
+    padding: .5em;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.card__title {
+    margin-bottom: 10px;
+}
+
+.card__text {
+    line-height: 2;
+    font-size: $small;
+}
+
+.card__subtitle {
+    font-size: $large;
+}
+
+.card__icons {
+    margin-top: 10px;
+}
+
+.card__icons a {
+    text-decoration: none;
+    color: $sable;
+}
+
+.card__icons i {
+    padding-right: 1em;
+    font-size: $large;
+}
+
+.main__social {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.social__imagen {
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid $sable;
+    margin-bottom: 10px;
+}
+
+.social__title {
+    font-size: $x-large;
+    margin-bottom: 10px;
+}
+
+.social__icons {
+    font-size: $large;
+    margin-bottom: 10px;
+}
+
+.social__icons i {
+    padding-right: 1em;
+}
+
+.social__text {
+    text-align: left;
+    line-height: 2;
+}
+
+.cohorts__titles {
+    text-align: center;
+    padding: .5em 1em;
+    background-color: $charcoal;
+    color: $white;
+    font-weight: $font-bold;
+    margin-bottom: 10px;
+}
+
+.main__list {
+    list-style-type: circle;
+    padding-left: 1em;
+}
+
+.item__cohorts {
+    padding: .5em 0;
+}
+
+.bottom-animation {
+    margin-top: 2em;
+}

@@ -1,0 +1,54 @@
+.nav{
+padding: 1em 2em;
+background-color: $black;
+display: flex;
+flex-flow: row nowrap;
+}
+
+.nav__menu {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    @include breakpoint('smallScreen'){
+        display: none;
+    }
+}
+
+.nav__list {
+    list-style-type: none;
+}
+
+.list__item {
+    float: left;
+    padding: 1em;
+}
+
+.item__anchor {
+    text-decoration: none;
+    color: $white;
+    font-size: $medium;
+    font-weight: $font-bold;
+    &:hover {
+        color: $tangerine;
+    }
+}
+
+.nav__menu__mobile {
+    display: none;
+    @include breakpoint('smallScreen'){
+        display: block;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
+.button__burguer {
+    background-color: $black;
+    color: $white;
+    border: none;
+    font-size: $xxxx-large;
+    &:hover {
+        color: $tangerine;
+    }
+}

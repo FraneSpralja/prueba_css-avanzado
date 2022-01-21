@@ -1,0 +1,18 @@
+.header {
+    padding: 1em 0;
+    height: 50vh;
+    @include breakpoint('smallScreen'){
+        height: 32vh;
+    }
+}
+
+.header__hero {
+    height: 50vh;
+    background-image: url(/assets/img/desarrolloweb2021t.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    @include breakpoint('smallScreen'){
+        height: 32vh;
+    }
+}

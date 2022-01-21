@@ -1,0 +1,6 @@
+//RESPONSIVE
+@mixin breakpoint($point) {
+    @if $point == smallScreen {
+        @media (max-width: 490px) { @content ; }
+    }
+}
