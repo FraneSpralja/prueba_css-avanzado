@@ -160,9 +160,11 @@
                             #wreck__move {
                                 animation-name: fullRotate;
                                 animation-duration: 2s;
-                                animation-timing-function: ease;
+                                animation-timing-function: linear;
                                 animation-fill-mode: forwards;
                                 animation-iteration-count: infinite;
+                                transform-origin: initial;
+                                transform:translate(0);
                             }
 
                             @keyframes firstMove {
@@ -184,6 +186,11 @@
                                 0% { 
                                     transform: rotate(360deg);
                                 }
+
+                                50% {
+                                    transform: rotate(180deg);
+                                }
+
                                 100% {
                                     transform: rotate(0);
                                 }
@@ -211,7 +218,7 @@
     </main>
     <!--FOOTER-->
     <footer class="footer">
-        <div class="footer__rights"><span></span></div>
+        <div class="footer__rights"><span>All Right Reserved | Frane Spralja 2022</span></div>
         <div class="footer__form">
             <ul class="footer__list">
                 <li class="footer__items">
@@ -223,7 +230,7 @@
             </ul>
             <form action="#" class="form">
                 <input type="email" class="form__input" placeholder="e-mail">
-                <button type="submit">Enviar</button>
+                <button class="form__button" type="submit">Enviar</button>
             </form>
         </div>
     </footer>

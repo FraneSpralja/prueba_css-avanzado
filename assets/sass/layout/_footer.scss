@@ -1,0 +1,37 @@
+.footer {
+    background-color: $black;
+    padding: 2em;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer__rights {
+    width: 20%;
+    font-size: $medium;
+    color: $white;
+    font-family: $ubuntu;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+
+.footer__form {
+    margin-left: auto;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 2em;
+}
+
+.footer__items {
+    float: left;
+    padding: 1em;
+}
+
+.footer__anchors {
+    color: $white;
+}
+
+.form {
+    margin-top: auto;
+    margin-bottom: auto;
+}

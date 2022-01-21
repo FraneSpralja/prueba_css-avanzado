@@ -226,4 +226,58 @@ a {
   border: 1px solid #060606;
 }
 
+.footer {
+  background-color: #000;
+  padding: 2em;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.footer__rights {
+  width: 20%;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: bold;
+}
+
+.footer__form {
+  margin-left: auto;
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 2em;
+}
+
+.footer__items {
+  float: left;
+  padding: 1em;
+}
+
+.footer__anchors {
+  color: #fff;
+}
+
+.form {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.form__button {
+  background-color: #ffaf6d;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  border-radius: 3px;
+  border: 1px solid #fff;
+  padding: 1px;
+  font-size: 16px;
+}
+
+.form__input {
+  font-size: 16px;
+  border-radius: 3px;
+  padding: 4px;
+}
+
 /*# sourceMappingURL=style.css.map */
